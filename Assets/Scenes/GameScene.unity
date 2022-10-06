@@ -1470,6 +1470,7 @@ MonoBehaviour:
   timeRemaining: 20
   ScoreText: {fileID: 1265182801}
   TimerText: {fileID: 587661732}
+  coinfx: {fileID: 100004, guid: d8c41be67f41aa545ae053b0b927f821, type: 3}
   PlayerRigidbody: {fileID: 519159745}
   Text: {fileID: 1265182799}
 --- !u!135 &513957030

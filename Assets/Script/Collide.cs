@@ -18,6 +18,7 @@ public class Collide : MonoBehaviour
     public Text TimerText;
 
     private float TimerValue;
+    public GameObject coinfx;
 
     int score;
     public Rigidbody PlayerRigidbody;
@@ -50,7 +51,8 @@ public class Collide : MonoBehaviour
     {
         if (other.gameObject.tag == "coin")
         {
-
+            Instantiate(coinfx, other.transform.position, Quaternion.identity);
+            
             score += 10;
             Destroy(other.gameObject);
 

@@ -14,7 +14,7 @@ namespace UnityStandardAssets.Effects
         private Collider[] m_Cols;
         private SphereCollider m_Sphere;
 
-
+         
         private void OnEnable()
         {
             m_Sphere = (GetComponent<Collider>() as SphereCollider);
